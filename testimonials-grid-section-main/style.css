@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+:root {
+    --danielblockbgcolor: hsl(263, 55%, 52%);
+    --danielnamecolor: white;
+    --danieltoppcolor: white;
+    --danieldownpcolor: white; /*70% opacity*/
+    --jonathanbgcolor: hsl(217, 19%, 35%);
+    --jonathannamecolor: white;
+    --jonathantoppcolor: white;
+    --jonathandownpcolor: white; /*70% opacity*/
+    --jeanettebgcolor: white;
+    --jeanettenamecolor: hsl(217, 19%, 35%);
+    --jeanettetoppcolor: hsl(217, 19%, 35%);
+    --jeanettedownpcolor: hsl(217, 19%, 35%); /*70% opacity*/
+    --patrickbgcolor: hsl(219, 29%, 14%);
+    --patricknamecolor: white;
+    --patricktoppcolor: white;
+    --patrickdownpcolor: white; /*70% opacity*/
+    --kirabgcolor: white;
+    --kiranamecolor: hsl(217, 19%, 35%);
+    --kiratoppcolor: hsl(217, 19%, 35%);
+    --kiradownp: hsl(217, 19%, 35%); /*70% opacity*/
+}
+
+body {
+    font-family: "Barlow Semi Condensed";
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.allblocks {
+    display: flex;
+}
+
+.topblocks {
+    display: flex;
+}
+
+.downblocks {
+    display: flex;
+}
+
+/*---------------danielblock--------------*/
+
+.danielblock {
+    background-color: var(--danielblockbgcolor);
+    border: 0px solid;
+    border-radius: 0.5rem;
+    width: 550px;
+    height: 280px;
+    padding: 2rem;
+    margin-right: 2rem;
+}
+
+ .danieltop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+
+ .danielimg {
+    height: 40px;
+    border: 2px solid white;
+    border-color: hsl(263, 64%, 66%);
+    border-radius: 5rem;
+}
+
+ .danielinfo {
+    margin-left: 1.2rem;
+}
+
+ .danielname {
+    color: var(--danielnamecolor);
+    margin-bottom: -0.7rem;
+    font-size: 16px;
+}
+
+ .danielspecs {
+    font-size: 14px;
+    color: white;
+    opacity: 50%;
+}
+
+ .danieltopp {
+    font-size: 23px;
+    color: var(--danieltoppcolor);
+}
+
+ .danieldownp {
+    color: var(--danieldownpcolor);
+    opacity: 70%;
+    line-height: 20px;
+    padding-right: 1rem;
+    font-size: 15px;
+}
+
+/*-------------jonathanblock--------------*/
+
+.jonathanblock {
+    border: 0px solid ;
+    background-color: var(--jonathanbgcolor);
+    border-radius: 0.5rem;
+    width: 220px;
+    height: 280px;
+    padding: 2rem;
+}
+
+ .jonathantop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+
+ .jonathanimg {
+    height: 40px;
+    border: 2px solid;
+    border-color: rgb(139, 135, 135);
+    border-radius: 5rem;
+}
+
+ .jonathanname {
+    color: var(--jonathannamecolor);
+    margin-bottom: -0.7rem;
+    font-size: 16px;
+}
+
+ .jonathanspecs {
+    font-size: 14px;
+    color: white;
+    opacity: 50%;
+}
+
+ .jonathantopp {
+    font-size: 23px;
+    color: var(--jonathantoppcolor);
+}
+
+ .jonathandownp {
+    color: var(--jonathantoppcolor);
+    opacity: 70%;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+/*-----------jeanetteblock----------*/
+
+.jeanetteblock {
+    border: 0px solid;
+    border-radius: 0.5rem;
+    background-color: var(--jeanettebgcolor);
+    width: 220px;
+    height: 280px;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+ .jeanettetop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+
+ .jeanetteimg {
+    height: 40px;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 5rem;
+    margin-right: 1.2rem;
+}
+
+ .jeanettename {
+    color: var(--jeanettenamecolor);
+    margin-bottom: -0.7rem;
+    font-size: 16px;
+}
+
+ .jeanettespecs {
+    font-size: 14px;
+    color: hsl(217, 19%, 35%);
+    opacity: 50%;
+}
+
+ .jeanettetopp {
+    font-size: 23px;
+    color: var(--jeanettetoppcolor);
+    margin-bottom: 2rem;
+}
+
+ .jeanettedownp {
+    color: var(--jeanettedownpcolor);
+    opacity: 70%;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+/*-----------patrickblock-------------*/
+
+.patrickblock {
+    border: 1px solid;
+    border-radius: 0.5rem;
+    background-color: var(--patrickbgcolor);
+    width: 550px;
+    height: 280px;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+ .patricktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+
+ .patrickimg {
+    height: 40px;
+    border: 2px solid;
+    border-color: hsl(263, 55%, 52%);
+    border-radius: 5rem;
+    margin-right: 1.2rem;
+}
+
+ .patrickname {
+    color: var(--patricknamecolor);
+    margin-bottom: -0.7rem;
+    font-size: 16px;
+}
+
+ .patrickspecs {
+    font-size: 14px;
+    color: white;
+    opacity: 50%;
+}
+
+ .patricktopp {
+    font-size: 23px;
+    color: var(--patricktoppcolor);
+    margin-bottom: 2rem;
+}
+
+ .patrickdownp {
+    color: var(--patrickdownpcolor);
+    opacity: 70%;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+/*-----------kirablock-----------*/
+
+.rightblock {
+    border: 0px solid;
+    border-radius: 0.5rem;
+    background-color: var(--kirabgcolor);
+    height: 658px;
+    width: 220px;
+    padding: 2rem;
+    margin-left: 2rem;
+}
+
+ .kiratop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -1rem;
+}
+
+ .kiraimg {
+    height: 40px;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 5rem;
+    margin-right: 1.2rem;
+}
+
+ .kiraname {
+    color: var(--kiranamecolor);
+    margin-bottom: -0.7rem;
+    font-size: 16px;
+}
+
+ .kiraspecs {
+    font-size: 14px;
+    color: hsl(217, 19%, 35%);
+    opacity: 50%;
+}
+
+ .kiratopp {
+    font-size: 23px;
+    color: var(--kiratoppcolor);
+    margin-bottom: 3rem;
+}
+
+ .kiradownp {
+    color: var(--kiradownp);
+    opacity: 70%;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+/*---attribution---*/
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+ .attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
